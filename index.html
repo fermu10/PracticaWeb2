@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Web II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido</h2>
+        <p>Esta es mi pagina personal hecha para la materia de Programacion Web II.</p>
+        <button id="btnSaludo">Saludar</button>
+        <p id="mensaje"></p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Soy estudiante de la Universidad del Valle. Me gusta el desarrollo web y las apps moviles.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>App de rutas</h3>
+                <p>Planificador de rutas de transporte publico en La Paz.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Sistema de becas</h3>
+                <p>Proyecto de base de datos en Oracle PL/SQL.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Esta pagina</h3>
+                <p>Practica de Git y GitHub Pages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formContacto">
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <input type="email" id="correo" placeholder="Tu correo">
+            <textarea id="texto" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Programacion Web II - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
